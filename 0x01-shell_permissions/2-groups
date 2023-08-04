@@ -1,2 +1,2 @@
 #!bin/bash
-groups
+groups $USER | cut -d ' ' -f 3-
